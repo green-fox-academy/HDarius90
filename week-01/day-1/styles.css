@@ -1,0 +1,45 @@
+.navbar-custom { 
+    background-color: #333333; 
+} 
+h2
+{
+    color: #ff0099;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1.name 
+{
+   margin: 60px 0px 60px 0; 
+   font-family: 'Dancing Script', courier;
+   text-align: left;
+   font-size: 90px;
+   font-weight: bold;
+}
+body {
+    width: 90%;
+    padding: 10%;
+    font-family: courier;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5em;
+
+    
+    background-image: url("assets/topography.png");
+    background-repeat: repeat;
+    }
+
+    nav .navbar-nav li a {
+        color: #ff0099 !important;
+        text-decoration: underline !important;
+        }
+
+        h1
+        {
+            text-align: center;
+            font-family: 'Syne Mono', monospace;
+        }
+
+        p {
+            margin: 5% 0%;
+        }
