@@ -29,8 +29,8 @@ console.log(out2);
 
 
 let c = 123;
-const credits = 100;
-const isBonus = false;
+const credits = 49;
+const isBonus = true;
 // Ha credits legalább 50,
 // és isBonus hamis, c legyen csökkentve 2-vel
 // Ha credits kisebb, mint 50,
