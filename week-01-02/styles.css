@@ -23,6 +23,8 @@ body {
     font-size: 30px;
     font-weight: bold;
     line-height: 1.5em;
+    
+    
 
     
     background-image: url("assets/topography.png");
@@ -38,6 +40,7 @@ body {
         {
             text-align: center;
             font-family: 'Syne Mono', monospace;
+            
         }
 
         p {
