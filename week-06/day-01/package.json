@@ -1,0 +1,8 @@
+{
+  "name": "05-05-mr",
+  "type": "module",
+  "devDependencies": {
+    "@types/tape": "^4.13.0",
+    "tape": "^5.0.1"
+  }
+}
