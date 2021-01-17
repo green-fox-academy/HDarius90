@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.item{
+    height: 300px;
+    width: 300px;
+    
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+    right: 4px
+}
+
+.purple {
+    background-color: purple;
+    right: 8px
+}

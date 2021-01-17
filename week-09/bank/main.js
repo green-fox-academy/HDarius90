@@ -20,5 +20,6 @@ otp.createAccount('USD');
 otp.bankAccount[0].deposit(100);
 otp.createAccount('USD');
 otp.bankAccount[1].deposit(200);
+otp.bankAccount[1].withdraw(1235,100)
 console.log(otp.bankAccount);
 console.log(otp.getAllMoney());

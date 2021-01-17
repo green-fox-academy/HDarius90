@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;  
+    height: 400px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.item{
+     
+}
+
+.green {
+    background-color: green;
+    display: none;
+}
+
+.yellow {
+    background-color: yellow;
+
+    height: 400px;
+    width: 1000px;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.purple {
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+
+
+}

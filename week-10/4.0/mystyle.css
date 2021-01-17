@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+
+    
+}
+.page {
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+}
+
+
+header {
+    height: 5vw;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    width: 1400px;
+
+
+
+    
+}
+
+
+
+.link {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(45, 78, 223, 0.952);
+    
+}
+.link.first {
+    margin-left: 70px;
+}
+main {
+    background-color: yellow;
+    height: 700px;
+    width: 1000px;
+}
+
+.off-content {
+    background-color: green;
+    height: 700px;
+    width: 400px;
+}
+.content {
+    display: flex;
+}
+
+

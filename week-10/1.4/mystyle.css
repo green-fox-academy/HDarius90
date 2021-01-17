@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px
+
+}
+
+
+
+.item{
+
+    width: 100%;
+    
+}
+
+.green {
+    background-color: green;
+    flex-grow: 1;
+
+}
+
+.yellow {
+    background-color: yellow;
+    order: 3;
+    flex-grow: 2;
+    
+}
+
+.purple {
+    background-color: purple;
+    flex-grow: 1;
+
+}

@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;  
+    height: 400px;
+    width: 100%;
+    align-items:flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: yellow;
+    padding: 0;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    background:purple;
+    list-style: none;
+    margin: 5px 0 0 5px;
+}
+
+
