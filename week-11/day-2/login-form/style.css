@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding-top: 10%;
+    box-sizing: border-box;
+    background-color: #d8d2c0;
+  }
+  
+  .container {
+    background-color: #f0ead6;
+    width: 30%;
+    min-width: 250px;
+    margin: 0 auto;
+    padding: 3% 0 3% 7%;
+  }
+  
+  input {
+    padding: 1%;
+    display: block;
+  }
+  
+  input:invalid {
+    border: red solid 3px;
+  }
+  
+  h2,
+  label {
+    text-transform: uppercase;
+    font-family: Quicksand;
+    white-space: nowrap;
+  }
+  p {
+    text-align: right;
+    margin: -3% 28% 3%;
+    white-space: nowrap;
+    font-family: Quicksand;
+    font-size: 0.8rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  
+  label {
+    font-size: 0.8rem;
+  }
+  
+  input[name='name'],
+  input[name='password'] {
+    width: 70%;
+    border: none;
+    border-radius: 3px;
+    transition: ease-in-out, width 0.35s ease-in-out;
+    margin-bottom: 5%;
+    margin-top: 1%;
+  }
+  
+  input[name='name']:focus,
+  input[name='password']:focus {
+    border: 2px solid rgb(87, 255, 87);
+  }
+  
+  /*input[type='password'] {
+    background-image: url('eye.png');
+    background-position: 97%;
+    background-repeat: no-repeat;
+  }*/
+  
+  .icontainer {
+    position: relative;
+  }
+  
+  .fa-eye {
+    position: absolute;
+    bottom: 10%;
+    left: 65%;
+  
+    cursor: pointer;
+  }
+  
+  .login-button {
+    padding: 3% 10%;
+    background-color: #2e2d2a;
+    border-radius: 20px;
+    color: #f0ead6;
+    font-weight: bold;
+    transition: ease-in-out 0.7s;
+    outline: none;
+    border: none;
+  }
+  
+  .login-button:hover {
+    background-color: #464542;
+    padding: 3% 17%;
+  }
+  
+  .login-button:focus {
+    background-color: #adaca6;
+    padding: 3% 17%;
+  }

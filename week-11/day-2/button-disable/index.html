@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Disabled button</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <form class="login-form" method="post" action="">
+        <p>Mi a kedvenc állatod?</p>
+        <div class="fav-pet">
+            <input type="radio" id="kutya" name="animal" value="Kutya">
+            <label for="kutya">Kutya</label><br>
+            <input type="radio" id="cica" name="animal" value="Cica">
+            <label for="cica">Cica</label><br>
+            <input type="radio" id="goldfish" name="animal" value="Viktor, az aranyhal">
+            <label for="goldfish">Viktor, az aranyhal</label>
+        </div>
+
+        </br>
+        <p>Szeretnél feliratkozni a macskákkal kapcsolatos hírlevélre?</p>
+        <input type="radio" id="yes" name="newsletter" value="Igen">
+        <label for="yes">Igen</label><br>
+        <input type="radio" id="no" name="newsletter" value="Nem">
+        <label for="no">Nem</label><br>
+
+        </br>
+
+        <input type="radio" id="catlover" disabled name="disabled" value="Szeretem a macskákat">
+        <label for="catlover">Szeretem a macskákat</label><br>
+        <input type="radio" id="signup" disabled name="disabled" value="Feliratkozás">
+        <label for="signup">Feliratkozás</label><br>
+
+
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

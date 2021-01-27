@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movie Selector</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Thasadith:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="login-form" method="post" action="">
+            <h1>Movie Selector</h1>
+
+            <select id="genre" name="genre" onchange="myFunction();">
+                <option selected hidden disabled value="selectgen">Select a genre</option>
+                <option value="scifi">Sci-fi</option>
+                <option value="drama">Drama</option>
+                <option value="comedy">Comedy</option>
+            </select>
+
+
+
+            <select id="movies" name="movies" onchange="myMovie()">
+                <option class=" scifi" selected hidden disabled value="selectmov">Select a movie</option>
+                <option class="scifi" value="Hold">Hold</option>
+                <option class="scifi" value="2001: Űrodüsszeia">Űrodüsszeia</option>
+                <option class="scifi" value="Kapcsolat">Kapcsolat</option>
+                <option class="drama" value="A legsötétebb óra">A legsötétebb óra</option>
+                <option class="drama" value="Vérző olaj">Vérző olaj</option>
+                <option class="drama" value="Amerikai szépség">Amerikai szépség</option>
+                <option class="comedy" value="Airplane!">Airplane!</option>
+                <option class="comedy" value="Deadpool">Deadpool</option>
+                <option class="comedy" value="Wayne világa">Wayne világa</option>
+            </select>
+            <p>The selected movie is:<span id="movie-text"> ---</span></p>
+
+        </form>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
