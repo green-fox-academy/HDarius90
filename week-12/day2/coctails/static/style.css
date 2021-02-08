@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: fit-content;
+    margin: 30px auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+#cocktailName {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#cocktailContains {
+    font-size: 0.9rem;
+}
+
+#alcohols {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    max-width: 50%;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#alcohols li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+#alcohols li a {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+table {
+    width: 80vh;
+}
+
+th {
+    border-radius: 5px;
+    height: 40px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: #243d53;
+    color: white;
+}
+
+th:nth-of-type(2) {
+    width: 20%;
+}
+
+td {
+    padding-left: 5px;
+    border-radius: 5px;
+    color: #333333;
+    height: 60px;
+    background-color: rgb(219, 219, 219);
+}
+
+td:nth-of-type(2n) {
+    text-align: center;
+    font-weight: 500;
+}
+
+tr:nth-of-type(2n) td {
+    color: #2c2c2c;
+    background-color: #c5d4eb;
+}
+
+h1 {
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(48, 48, 48);
+    margin-bottom: 2rem;
+}

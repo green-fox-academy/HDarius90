@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktails</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cocktails</h1>
+        <ul id="alcohols">
+            <li><a href="/">all</a></li>
+            <% for (let i = 0; i < alcohols.length; i++) { %>
+                <li>
+                    <a href="/?alcohol=<%= alcohols[i] %> ">
+                        <%= alcohols[i] %>
+                    </a>
+                </li>
+                <% } %>
+        </ul>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% for (let i = 0; i < cocktails.length; i++) { %>
+                    <tr>
+                        <td><span id="cocktailName"><%= cocktails[i].name %></span>
+                            <% if (!cocktails[i].isAlcoholic) { %>
+                                <%= '(non-alcoholic)' %>
+                                    <% } %>
+                                        <br>
+                                        <span id="cocktailContains"><%= cocktails[i].contains.join(', ') %></span></td>
+                        <td>
+                            <%= cocktails[i].price %> Ft </td>
+                    </tr>
+                    <% } %>
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+[{
+        "name": "Rick Sanchez",
+        "species": "Human",
+        "type": ""
+    },
+    {
+        "name": "Morty Smith",
+        "species": "Human",
+        "type": ""
+    },
+    {
+        "name": "Leonard Hofstadter",
+        "species": "animal",
+        "type": ""
+    },
+    {
+        "name": "Sheldon Cooper",
+        "species": "Human",
+        "type": ""
+    },
+    {
+        "name": "Ted Mosby",
+        "species": "Human",
+        "type": ""
+    }
+]

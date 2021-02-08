@@ -1,0 +1,59 @@
+<!--
+Generálj 100 div-et a <section> elemen belülre és állítsd be az indexüket textContent-nek. Példaként láthatod az 1-es div-et!
+Hozz létre egy függvényt, ami hozzáadja a 'not-prime' ("nem prím") osztályt ("class") azokhoz a div-ekhez, amik nem prímek, és a 'prime' osztályt a prímekhez!
+Hozz létre egy időzítőt, ami addig hívja a prím validátor (ellenőrző) függvényt, amíg a számok végére nem ér!
+Az időzítő 100ms-onként fusson le.
+Az időzítő álljon le, hogyha nincsen több elem.
+-->
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Prím</title>
+    <style>
+        .prime {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="main"></main>
+    <script>
+        const main = document.getElementById('main');
+        main.innerHTML = [...Array(100)].map((_, i) => `<div>${i}</div>`).join('');
+
+        const divs = main.querySelectorAll('div');
+        let index = 0;
+
+        const timer = setInterval(() => {
+            if (index === divs.length) {
+                clearInterval(timer);
+                return;
+            }
+            divs[index].className = isPrime(parseInt(el.textContent, 10)) ?
+                'prime' :
+                'not-prime';
+            index = index + 1;
+        }, 100);
+
+        function isPrime(n) {
+            if (n === 0 || n === 1) {
+                return false;
+            }
+            const sqrt = Math.floor(Math.sqrt(n));
+            let prime = n !== 1;
+            for (let i = 2; i < sqrt + 1; i++) {
+                if (n % i == 0) {
+                    prime = false;
+                    break;
+                }
+            }
+            return prime;
+        }
+    </script>
+</body>
+
+</html>
