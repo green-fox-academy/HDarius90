@@ -1,0 +1,12 @@
+label {
+  display: block;
+}
+
+.list {
+  display: flex;
+}
+
+.left,
+.right {
+  flex: 1;
+}

@@ -1,0 +1,27 @@
+body {
+  background-color: #d4f3f3;
+  font-family: sans-serif;
+}
+main {
+  max-width: 1000px;
+  min-width: 600px;
+}
+
+button {
+  height: 30px;
+  width: 140px;
+  border-radius: 10px;
+  box-shadow: 5px 3px 15px #eba3a3;
+  color: grey;
+  margin: 10px;
+}
+
+table {
+  background-color: whitesmoke;
+  padding: 5px;
+  margin: 3px;
+  border: 1px solid red;
+}
+td {
+  border: 1px solid grey;
+}

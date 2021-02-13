@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+main {
+  width: 70%;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  flex-basis: 180px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+}
+
+button:nth-of-type(1) {
+  background-color: #5555e0;
+}
+button:nth-of-type(2) {
+  background-color: green;
+}
+button:nth-of-type(3) {
+  background-color: red;
+}
+button:nth-of-type(4) {
+  background-color: #7abbd1;
+}
+button:nth-of-type(5) {
+  background-color: #000;
+}
+button:nth-of-type(6) {
+  background-color: whitesmoke;
+  color: grey;
+}

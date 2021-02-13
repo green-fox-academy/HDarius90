@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Fancy Table</title>
+  </head>
+  <body>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Sales</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td>January</td>
+              <td data-currency="$">50000</td>
+            </tr>
+            <tr>
+              <td>February</td>
+              <td data-currency="$">10000</td>
+            </tr>
+            <tr>
+              <td>March</td>
+              <td data-currency="$">85000</td>
+            </tr>
+            <tr>
+              <td>April</td>
+              <td data-currency="$">56000</td>
+            </tr>
+            <tr>
+              <td>May</td>
+              <td data-currency="$">98000</td>
+            </tr>
+
+            <script>
+
+              const curr = document.querySelectorAll('td[data-currency="$"]');
+              curr.forEach(td=>{
+                const basicNumber = parseInt(td.textContent);
+                td.textContent=basicNumber.toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2});
+              })
+
+            </script>
+          </tbody>
+        </thead>
+      </table>
+    </main>
+  </body>
+</html>

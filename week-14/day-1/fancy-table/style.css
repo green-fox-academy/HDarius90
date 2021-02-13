@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  background-color: #6262fa;
+  padding: 20px;
+  width: fit-content;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+thead {
+  background: black;
+  color: white;
+}
+th,
+td {
+  border: 1px solid #727272;
+  text-align: left;
+  height: 40px;
+  padding-left: 10px;
+}
+
+td {
+  width: 150px;
+}
+tbody tr:nth-of-type(2n) {
+  background-color: #e0e0e0;
+}
+tbody tr:nth-of-type(odd) {
+  background-color: #afafaf;
+}
+td[data-currency="$"]::before {
+  content: "$ ";
+}
