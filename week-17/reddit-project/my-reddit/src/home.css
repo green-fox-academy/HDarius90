@@ -1,0 +1,155 @@
+main {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    background-color: rgb(186, 189, 188);
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.header-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/photo-1465101162946-4377e57745c3.jpg');
+    background-size: cover;
+    height: 200px;
+    color: white;
+}
+
+.header-space>h1 {
+    letter-spacing: 50px;
+    font-weight: 200;
+}
+
+.header-space>img {
+    width: 130px;
+    border-radius: 40px;
+    margin-right: 60px;
+    border: 3px white solid;
+}
+
+.header-space>img:hover {
+    width: 360px;
+}
+
+.login>a {
+    text-decoration: none;
+    color: rgb(82, 5, 88);
+}
+
+.login>a:hover {
+    color: rgb(160, 25, 187);
+}
+
+.login {
+    background-color: rgb(180, 179, 179);
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.login:hover {
+    background-color: #69d7eb;
+    box-shadow: 5px 5px 1px rgb(135, 68, 161);
+    color: purple;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.articles {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 20px 20px;
+    width: 30vw;
+}
+
+.aside {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    width: 28vw;
+}
+
+.votes {
+    text-align: center;
+}
+
+.vote-btn {
+    border: none;
+    background-color: white;
+}
+
+.links {
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links>a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+}
+
+.links>a:hover {
+    color: rgb(23, 170, 23)
+}
+
+.edit>a {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(148, 146, 146)
+}
+
+.edit>a:hover {
+    color: rgb(38, 10, 163)
+}
+
+.counter {
+    color: rgb(184, 182, 182);
+}
+
+.right-side {
+    display: flex;
+}
+
+.submit-post {
+    background-color: rgb(58, 155, 235);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.submit-post>a {
+    text-decoration: none;
+    color: white;
+}
+
+.submit-post>a:hover {
+    color: rgb(160, 25, 187);
+}
+
+.about {
+    background-color: rgb(226, 222, 222);
+    padding: 10px 10px;
+    word-spacing: 10px;
+    color: rgb(85, 84, 84)
+}
+
+.content {
+    background-color: rgb(170, 170, 170);
+    padding: 10px 10px;
+    color: rgb(54, 54, 54);
+}

@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    width: 100%;
+    color: blueviolet;
+    background-color: rgb(169, 230, 108);
+}
+
+.main {
+    display: grid;
+}
+
+.navbar {
+    margin: 0 auto;
+    height: 100px;
+    min-width: 1200px;
+    max-width: 1200px;
+}
+
+header {
+    background-color: honeydew;
+    height: 100px;
+    display: flex;
+}
+
+nav {
+    background-color: hotpink;
+    width: 15%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    margin: 10px;
+}
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 80%;
+    height: 600px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 70px;
+    gap: 20px;
+}
+
+main {
+    background-color: lawngreen;
+}
+
+aside {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: lightslategrey;
+    grid-column: 1/-1;
+}

@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.items div {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.left {
+    background-color: wheat;
+    border: 10px solid blueviolet;
+}
+
+.center {
+    background-color: greenyellow;
+    border-top: 10px solid blueviolet;
+    border-bottom: 10px solid blueviolet;
+}
+
+.right {
+    background-color: hotpink;
+    border: 10px solid blueviolet;
+}

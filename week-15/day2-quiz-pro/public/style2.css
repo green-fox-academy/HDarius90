@@ -1,0 +1,86 @@
+.container {
+    font-family: 'Chakra Petch', sans-serif;
+    background: rgb(250, 159, 78);
+    background: linear-gradient(52deg, rgba(250, 159, 78, 1) 0%, rgba(142, 229, 237, 1) 75%);
+    margin: 20px 40px;
+    padding: 20px;
+    color: rgb(75, 74, 74)
+}
+
+.submit-div {
+    text-align: center;
+}
+
+.submit {
+    color: rgb(80, 54, 6);
+    background-color: rgb(84, 223, 211);
+    padding: 10px 40px;
+    border: solid 1px grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px #888888;
+}
+
+.submit:hover {
+    background-color: rgb(33, 113, 116);
+    color: white;
+    box-shadow: none;
+}
+
+#edit-button {
+    color: rgb(80, 54, 6);
+    background-color: rgb(84, 223, 211);
+    padding: 10px 40px;
+    border: solid 1px grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px #888888;
+}
+
+#edit-button:hover {
+    background-color: rgb(33, 113, 116);
+    color: white;
+    box-shadow: none;
+}
+
+#question,
+#answer1,
+#answer2,
+#answer3,
+#answer4 {
+    width: 70vw;
+}
+
+#question {
+    margin-left: 33px;
+}
+
+.delete-button {
+    position: absolute;
+    color: rgb(80, 54, 6);
+    background-color: rgb(84, 223, 211);
+    border: solid 1px grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px #888888;
+    right: 10px;
+}
+
+.delete-button:hover {
+    background-color: rgb(33, 113, 116);
+    color: white;
+    box-shadow: none;
+}
+
+p {
+    position: relative;
+}
+
+h5>a {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: rgb(63, 141, 134);
+    margin-right: 30px;
+}
+
+h5>a:hover {
+    color: rgb(185, 114, 8);
+}

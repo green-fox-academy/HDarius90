@@ -1,0 +1,65 @@
+body {
+    margin: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1 {
+    display: flex;
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+    top: 100px;
+    left: 330px;
+}
+
+.star-rating {
+    border: solid 1px black;
+    padding: 30px;
+    width: 15%;
+    top: 100px;
+    position: absolute;
+    top: 150px;
+}
+
+.type>aside {
+    border: 1px solid black;
+    padding: 30px;
+    width: 15%;
+    position: absolute;
+    top: 400px;
+}
+
+ul {
+    list-style: none;
+}
+
+.hotels {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+
+img {
+    width: 30%;
+}
+
+.hotelsname {
+    border: 1px solid black;
+    position: relative;
+    padding: 20px;
+}
+
+.hotelsname>h5 {
+    position: absolute;
+    left: 200px;
+    top: 90px;
+    padding: 20px;
+}

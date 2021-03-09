@@ -1,0 +1,203 @@
+{
+    "questions": [{
+            "question": "Melyik évben süllyedt el a Titanic?",
+            "answers": [{
+                    "answer": "1912",
+                    "is_correct": true
+                },
+                {
+                    "answer": "1914",
+                    "is_correct": false
+                },
+                {
+                    "answer": "1919",
+                    "is_correct": false
+                },
+                {
+                    "answer": "1899",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ki játszotta Neo-t a Mátrix című filmben?",
+            "answers": [{
+                    "answer": "Steven Spielberg",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Jake Gyllenhaal",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Keanu Reeves",
+                    "is_correct": true
+                },
+                {
+                    "answer": "Michael Fassbender",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ki a Viharbanszületett, a Targaryen-házból, aki első ezen a néven, az Elsők, az Andolok és a Rhoyniak királynője és a birodalom védelmezője, sárkányok anyja, a láncok leverője, Mereen királynője, a Nagy Fűtenger Khaleesije?",
+            "answers": [{
+                    "answer": "Rhaella Targaryen",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Daenerys Targaryen",
+                    "is_correct": true
+                },
+                {
+                    "answer": "Elia Targaryen",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Rhaenys Targaryen",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hitler pártja, amely 1933-ban került hatalomra úgy is ismert, mint...",
+            "answers": [{
+                    "answer": "Munkáspárt",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Náci Párt",
+                    "is_correct": true
+                },
+                {
+                    "answer": "Ku-Klux-Klán",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Demokrata Párt",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ki alkotta meg az első logaritmustáblát?",
+            "answers": [{
+                    "answer": "John Napier",
+                    "is_correct": true
+                },
+                {
+                    "answer": "John Doe",
+                    "is_correct": false
+                },
+                {
+                    "answer": "John Harrison",
+                    "is_correct": false
+                },
+                {
+                    "answer": "John Douglas",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hol került megrendezésre a 2006-os labdarúgó-világbajnokság?",
+            "answers": [{
+                    "answer": "Franciaország",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Kína",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Brazília",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Németország",
+                    "is_correct": true
+                }
+            ]
+        },
+        {
+            "question": "Melyik évben üzent hadat az első világháború alatt Németország Oroszországnak és Franciaországnak?",
+            "answers": [{
+                    "answer": "1914",
+                    "is_correct": true
+                },
+                {
+                    "answer": "1915",
+                    "is_correct": false
+                },
+                {
+                    "answer": "1916",
+                    "is_correct": false
+                },
+                {
+                    "answer": "1917",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hány csontból áll az emberi csontváz?",
+            "answers": [{
+                    "answer": "290",
+                    "is_correct": false
+                },
+                {
+                    "answer": "210",
+                    "is_correct": false
+                },
+                {
+                    "answer": "308",
+                    "is_correct": false
+                },
+                {
+                    "answer": "206",
+                    "is_correct": true
+                }
+            ]
+        },
+        {
+            "question": "Mivel mérjük a szél sebességét?",
+            "answers": [{
+                    "answer": "speedometer",
+                    "is_correct": false
+                },
+                {
+                    "answer": "tachometer",
+                    "is_correct": false
+                },
+                {
+                    "answer": "anemometer",
+                    "is_correct": true
+                },
+                {
+                    "answer": "audiometer",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "question": "Melyik a legjobb programozási nyelv?",
+            "answers": [{
+                    "answer": "C# a legmenőbb!",
+                    "is_correct": false
+                },
+                {
+                    "answer": "A Java a király.",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Assembly, mert mér ne?",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Természetesen a Javascript.",
+                    "is_correct": true
+                }
+            ]
+        }
+    ]
+}

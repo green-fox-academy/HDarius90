@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/__/firebase/8.2.9/firebase-app.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <title>Game table</title>
+</head>
+
+<body>
+
+    <main>
+        <button id="start" type="submit">Let's play</button>
+        <div class="container d-none ">
+            <header>
+                <h1 id="h1">PONTSZÁM:<span id="score"></span></h1>
+            </header>
+
+            <div class="main-content">
+                <h3 id="q"></h3>
+
+            </div>
+            <div class="edit">
+                <h3><a href="questions.html">kérdések szerkesztése</a> </h3>
+            </div>
+        </div>
+
+    </main>
+
+    <!--
+    <script src="/__/firebase/8.2.7/firebase-app.js"></script>
+
+    https://firebase.google.com/docs/web/setup#available-libraries
+    <script src="/__/firebase/8.2.7/firebase-analytics.js"></script>
+
+    <script src="/__/firebase/init.js"></script>
+
+-->
+
+    <!--ezek a scriptek kellenek, hogy import nélkül tudjunk firebase-zel dolgozni-->
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.js"></script>
+
+    <script src="game.js"></script>
+
+</body>
+
+</html>
